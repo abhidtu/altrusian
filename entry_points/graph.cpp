@@ -21,6 +21,7 @@ public:
 
 class Traversal : public LibAlDs::graph::DfsVisitor {
 
+
 public:
     void onVertexDiscovery(int vertex) {
         cout << vertex;
@@ -36,87 +37,6 @@ public:
     }
 
 };
-
-unordered_map<int,unordered_map<int,int>> d;
-
-int sos(int sum, int size, vector<int> set, vector<vector<int>>& vec, vector<int> tmp) {
-
-    if(sum < 0)
-        return 0;
-
-    if(sum == 0){
-        vec.push_back(tmp);
-        return 1;
-    }
-
-    if(size == 0)
-        return 0;
-
-        //if(d[sum-set[size-1]][size-1]==0)
-        {
-            tmp.push_back(set[size-1]);
-            d[sum-set[size-1]][size-1] = sos(sum - set[size-1], size - 1, set,vec,tmp);
-            tmp.pop_back();
-        }
-        //if(d[sum][size-1]==0)
-        {
-            d[sum][size-1] = sos(sum,size - 1, set,vec,tmp);
-        }
-        return d[sum-set[size-1]][size-1]+d[sum][size-1];
-
-}
-
-
-int sosInf(int sum, vector<int> set, vector<vector<int>>& vec, vector<int> tmp) {
-
-    if(sum < 0)
-        return 0;
-
-    if(sum == 0){
-        vec.push_back(tmp);
-        return 1;
-    }
-
-    int a=0;
-    for(auto& v : set) {
-        tmp.push_back(v);
-        a+=sosInf(sum - v,  set, vec, tmp);
-        tmp.pop_back();
-    }
-    return a;
-}
-
-int lcs(vector<char> a, vector<char> b,int asize, int bsize,vector<string>& veclcs, string veclcstmp) {
-
-    if(asize == 0 || bsize == 0){
-        veclcs.push_back(veclcstmp);
-        return 0;
-    }
-    if(a[asize-1] == b[bsize-1]) {
-        veclcstmp.push_back(a[asize-1]);
-        return lcs(a,b,asize-1,bsize-1,veclcs,veclcstmp)+1;
-    }
-    else {
-        return std::max(lcs(a,b,asize-1,bsize,veclcs,veclcstmp),lcs(a,b,asize,bsize-1,veclcs,veclcstmp));
-    }
-
-}
-
-int isIntegerPalindrome(int a) {
-
-    int t1 = a;
-    int t2=0;
-
-    int i=0;
-    while(t1) {
-        t2 = t2*(10^i)+t1%10;
-        t1=t1/10;
-        i++;
-    }
-    //cout << "t1= " << t1 <<"\n";
-    //cout << "t2= " <<t2 <<"\n\n";
-    return t1==t2;
-}
 
 int main() {
 
@@ -186,61 +106,6 @@ int main() {
     cout << "\n";
 
     cout << "iscyclic " << graphs->isCyclic();
-
-    vector<vector<int>> vec;
-
-    vector<int> tmp;
-    vector<int> arr;
-    arr.push_back(16);
-    arr.push_back(2);
-    arr.push_back(1);
-    arr.push_back(5);
-    arr.push_back(3);
-    arr.push_back(8);
-    arr.push_back(9);
-    arr.push_back(11);
-    arr.push_back(14);
-
-    //cout <<"\n" << sos(10,arr.size(),arr, vec,tmp);
-    //cout <<"\n" << sosInf(10,arr, vec,tmp);
-
-    vector<char> a;
-    vector<char> b;
-
-    a.push_back('a');
-    a.push_back('b');
-    a.push_back('a');
-    a.push_back('b');
-    a.push_back('a');
-    a.push_back('b');
-    a.push_back('a');
-    a.push_back('b');
-    a.push_back('b');
-    a.push_back('a');
-    a.push_back('b');
-
-    b.push_back('b');
-    b.push_back('a');
-    b.push_back('b');
-    b.push_back('b');
-    b.push_back('a');
-    b.push_back('a');
-    b.push_back('b');
-    b.push_back('a');
-    b.push_back('b');
-    b.push_back('b');
-    b.push_back('a');
-
-    vector<string> veclcs;
-    string veclcstmp;
-
-    //cout << "\nlcs = " << lcs(a,b,a.size(),b.size(),veclcs,veclcstmp);
-
-    for(auto& k : veclcs) {
-        cout << "\n" << k;
-    }
-
-    //cout <<"\n\n" << isIntegerPalindrome(121);
 
     return 0;
 }
