@@ -37,4 +37,4 @@ List of Algorithms and data-structures iplemented :
     -using pointers
     
 ###use cases
-altrusian with the power of its object oriented design and built in methods can make competitive programmin a bliss
+altrusian with the power of its object oriented design and built in methods can make competitive programming a bliss
