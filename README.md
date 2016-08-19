@@ -35,3 +35,6 @@ List of Algorithms and data-structures iplemented :
 
     -using unorderd map
     -using pointers
+    
+###use cases
+altrusian with the power of its object oriented design and built in methods can make competitive programmin a bliss
