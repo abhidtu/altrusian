@@ -4,25 +4,25 @@
 
 List of Algorithms and data-structures iplemented :
 
-1> linked lists
+#####1> linked lists
 
      -singly
      -doubly
 
-2> binary_search_trees
+#####2> binary search trees
 
      -balanced
        -AVL_tree
      -unbalanced
        -SimpleBinarySearchTree
        
-3> Heaps
+#####3> Heaps
 
      -d_ary_heap
        -max_heap
        -min_heap   
        
-4> Graphs
+#####4> Graphs
 
     -adjacency_list
       -directed
@@ -31,7 +31,7 @@ List of Algorithms and data-structures iplemented :
       -directed
       -undirected
       
-5> Tries
+#####5> Tries
 
     -using unorderd map
     -using pointers
