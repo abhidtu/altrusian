@@ -8,7 +8,7 @@
 #include <iostream>
 #include "Visitors.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
         template <class T>
         class Graph {

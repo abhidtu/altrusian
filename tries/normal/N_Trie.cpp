@@ -6,7 +6,7 @@
 #include "N_Trie.h"
 using namespace std;
 
-namespace LibAlDs {
+namespace altrusian {
 
     void N_Trie::insert(string str) {
         ptrToLeafNode(str);

@@ -8,7 +8,7 @@
 #include <unordered_map>
 
 using namespace std;
-using namespace LibAlDs;
+using namespace altrusian;
 
 class SuperStar {
 public:
@@ -40,8 +40,8 @@ public:
 
 int main() {
 
-    LibAlDs::graph::adjacency_list::UnDirected<SuperStar> directed(10);
-    LibAlDs::Graph<SuperStar> *graphs = &directed;
+    altrusian::graph::adjacency_list::UnDirected<SuperStar> directed(10);
+    altrusian::Graph<SuperStar> *graphs = &directed;
 
     SuperStar star;
     star.biceps = 50;

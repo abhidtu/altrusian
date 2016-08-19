@@ -7,7 +7,7 @@
 #include "../trees/binary_search_trees/BinarySearchTreeNode.h"
 
 using namespace std;
-using namespace LibAlDs;
+using namespace altrusian;
 
 int main() {
 

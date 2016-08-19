@@ -7,7 +7,7 @@
 #include "../tries/normal/N_Trie.h"
 
 using namespace std;
-using namespace LibAlDs;
+using namespace altrusian;
 
 int main() {
 

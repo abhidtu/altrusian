@@ -10,7 +10,7 @@
 #include "../adjacency_matrix/GraphEdge.h"
 
 
-namespace LibAlDs {
+namespace altrusian {
     namespace graph {
 
         template <class T>

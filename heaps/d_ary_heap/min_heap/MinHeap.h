@@ -8,7 +8,7 @@
 
 #include "../D_ary_Heap.h"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Heaps {
         namespace D_Ary_Heap {
 

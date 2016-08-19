@@ -9,7 +9,7 @@
 
 using namespace std;
 
-namespace LibAlDs {
+namespace altrusian {
 
     const char *Heaps::EmptyHeapException::what() const throw() {
         return "trying to access element from empty Heap";

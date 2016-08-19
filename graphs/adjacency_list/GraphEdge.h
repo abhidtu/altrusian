@@ -5,7 +5,7 @@
 #ifndef GRAPHEDGE_H
 #define GRAPHEDGE_H
 
-namespace LibAlDs {
+namespace altrusian {
     namespace graph {
 
         class GraphEdge {

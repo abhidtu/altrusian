@@ -3,7 +3,7 @@
 #ifndef DOUBLY_DOUBLYLNKEDLISTNODE_H
 #define DOUBLY_DOUBLYLNKEDLISTNODE_H
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
         class DoublyLinkedListNode {

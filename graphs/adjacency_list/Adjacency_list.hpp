@@ -16,7 +16,7 @@
 
 using namespace std;
 
-namespace LibAlDs {
+namespace altrusian {
     namespace graph {
 
         template <class T>

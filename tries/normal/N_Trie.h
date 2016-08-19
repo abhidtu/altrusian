@@ -14,7 +14,7 @@
 
 using namespace std;
 
-namespace LibAlDs {
+namespace altrusian {
 
     class N_Trie : public Trie {
 

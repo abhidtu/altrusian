@@ -7,7 +7,7 @@
 
 #include "../Adjacency_matrix.hpp"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace graph {
         namespace adjacency_matrix {
 

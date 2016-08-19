@@ -7,7 +7,7 @@
 #ifndef DOUBLY_LINKED_LIST_H
 #define DOUBLY_LINKED_LIST_H
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
         class DoublyLinkedList : public LinkedList {

@@ -9,7 +9,7 @@
 
 using namespace std;
 
-namespace LibAlDs {
+namespace altrusian {
 
     namespace Heaps {
 

@@ -27,9 +27,9 @@ int main() {
     vec.push_back(7);
 
 
-    LibAlDs::Heaps::D_Ary_Heap::MinHeap heap1(3,vec);
+    altrusian::Heaps::D_Ary_Heap::MinHeap heap1(3,vec);
 
-    LibAlDs::Heap *heap11 = &heap1;
+    altrusian::Heap *heap11 = &heap1;
 
     vector<int> vec2;
 
@@ -48,13 +48,13 @@ int main() {
     vec2.push_back(45);
 
 
-    LibAlDs::Heaps::D_Ary_Heap::MinHeap heap2(3,vec2);
+    altrusian::Heaps::D_Ary_Heap::MinHeap heap2(3,vec2);
 
-    LibAlDs::Heap *heap22 = &heap2;
+    altrusian::Heap *heap22 = &heap2;
 
     cout << heap11->max() << "\n";
 
-    LibAlDs::Heap *h = LibAlDs::Heaps::D_Ary_Heap::MinHeap::mergeHeaps(heap11,heap22,3);
+    altrusian::Heap *h = altrusian::Heaps::D_Ary_Heap::MinHeap::mergeHeaps(heap11,heap22,3);
     cout << h->max() << "\n";
 
     //heap22->insert(100);

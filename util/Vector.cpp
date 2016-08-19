@@ -4,7 +4,7 @@
 
 #include "Vector.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
     namespace Utils {
 

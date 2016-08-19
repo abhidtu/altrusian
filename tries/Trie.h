@@ -10,7 +10,7 @@
 
 using namespace std;
 
-namespace LibAlDs {
+namespace altrusian {
 
     class Trie {
 

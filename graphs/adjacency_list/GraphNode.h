@@ -9,7 +9,7 @@
 #include <list>
 #include "GraphEdge.h"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace graph {
 
         template <class T>

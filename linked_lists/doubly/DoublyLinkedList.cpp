@@ -3,7 +3,7 @@
 #include <iostream>
 #include "DoublyLinkedList.h"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
         /**

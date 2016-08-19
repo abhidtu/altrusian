@@ -9,9 +9,9 @@ using namespace std::chrono;
 
 int main() {
 
-    LibAlDs::AVL_Tree tree;
+    altrusian::AVL_Tree tree;
     //LibAlDs::Trees *trees = new LibAlDs::SimpleBinarySearchTree();
-    LibAlDs::Trees *trees = &tree;
+    altrusian::Trees *trees = &tree;
     /*
     trees->insert(15);
     trees->insert(10);

@@ -7,7 +7,7 @@
 
 #include "../Adjacency_list.hpp"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace graph {
         namespace adjacency_list {
 

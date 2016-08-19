@@ -4,6 +4,6 @@
 
 #include "SimpleBinarySearchTree.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
 }

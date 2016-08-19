@@ -8,7 +8,7 @@
 #define EXCEPTIONS_H
 using namespace std;
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Tries {
 
         class PrefixNotFoundException : public exception {

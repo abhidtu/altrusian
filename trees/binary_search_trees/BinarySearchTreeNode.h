@@ -5,7 +5,7 @@
 #ifndef BINARY_SEARCH_TREE_NODE
 #define BINARY_SEARCH_TREE_NODE
 
-namespace LibAlDs {
+namespace altrusian {
 
     class BinarySearchTreeNode {
     public:

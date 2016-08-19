@@ -7,7 +7,7 @@
 #ifndef SINGLY_LINKED_LIST_H
 #define SINGLY_LINKED_LIST_H
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
         class SinglyLinkedList: public LinkedList {

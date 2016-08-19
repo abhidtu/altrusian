@@ -5,7 +5,7 @@
 #include <iostream>
 #include "AVL_Tree.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
 
     BinarySearchTreeNode* AVL_Tree::insert(BinarySearchTreeNode* root,int value){

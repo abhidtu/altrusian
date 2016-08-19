@@ -9,7 +9,7 @@
 #include "../Trees.h"
 #include "BinarySearchTreeNode.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
     class BinarySearchTree : public Trees {
 

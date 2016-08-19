@@ -4,7 +4,7 @@
 using namespace std;
 #include "SinglyLinkedList.h"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
         /**

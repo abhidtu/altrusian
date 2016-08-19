@@ -5,7 +5,7 @@
 #ifndef HEAPS_H
 #define HEAPS_H
 
-namespace LibAlDs {
+namespace altrusian {
 
     class Heap {
 

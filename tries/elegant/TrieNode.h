@@ -7,7 +7,7 @@
 
 #include <unordered_map>
 
-namespace LibAlDs {
+namespace altrusian {
 
     class TrieNode {
 

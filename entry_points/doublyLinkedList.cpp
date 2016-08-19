@@ -9,9 +9,9 @@ using namespace std;
 
 int main() {
 
-    LibAlDs::DoublyLinkedList list;
+    altrusian::DoublyLinkedList list;
 
-    LibAlDs::List *linkedList = &list;
+    altrusian::List *linkedList = &list;
 
     linkedList->insertAtBeginning(1);
     linkedList->insertAtBeginning(2);

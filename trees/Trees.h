@@ -7,7 +7,7 @@
 
 #include "binary_search_trees/BinarySearchTreeNode.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
     class Trees {
 

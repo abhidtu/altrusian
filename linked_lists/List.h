@@ -1,6 +1,6 @@
 //created by Linux
 
-namespace LibAlDs{
+namespace altrusian{
 
     class List {
 

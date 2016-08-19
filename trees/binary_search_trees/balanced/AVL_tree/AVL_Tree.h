@@ -8,7 +8,7 @@
 #include "../../BinarySearchTreeNode.h"
 #include "../../BinarySearchTree.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
     class AVL_Tree : public BinarySearchTree {
 

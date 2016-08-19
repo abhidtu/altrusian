@@ -7,9 +7,9 @@ using namespace std;
 #include "../linked_lists/singly/SinglyLinkedList.h"
 
 int main() {
-    LibAlDs::Lists::SinglyLinkedList list;
+    altrusian::Lists::SinglyLinkedList list;
 
-    LibAlDs::List *linkedList = &list;
+    altrusian::List *linkedList = &list;
 
     linkedList->insertAtBeginning(1);
     linkedList->insertAtBeginning(2);

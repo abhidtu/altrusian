@@ -4,7 +4,7 @@
 
 #include "LinkedList.h"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
     /**

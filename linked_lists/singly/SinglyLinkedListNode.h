@@ -3,7 +3,7 @@
 #ifndef SINGLY_SINGLYLINKEDLISTNODE_H
 #define SINGLY_SINGLYLINKEDLISTNODE_H
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
         class SinglyLinkedListNode {

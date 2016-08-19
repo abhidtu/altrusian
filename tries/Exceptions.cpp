@@ -4,6 +4,6 @@
 
 #include "Exceptions.h"
 
-const char *LibAlDs::Tries::PrefixNotFoundException::what() const throw(){
+const char *altrusian::Tries::PrefixNotFoundException::what() const throw(){
     return "prefix not found";
 }

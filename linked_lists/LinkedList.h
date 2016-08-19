@@ -9,7 +9,7 @@
 #include "List.h"
 #include "singly/SinglyLinkedListNode.h"
 
-namespace LibAlDs {
+namespace altrusian {
     namespace Lists {
 
         class LinkedList : public List {

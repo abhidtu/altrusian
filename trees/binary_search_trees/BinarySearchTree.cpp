@@ -6,7 +6,7 @@
 #include <algorithm>
 #include "BinarySearchTree.h"
 
-namespace LibAlDs {
+namespace altrusian {
 
 
     void BinarySearchTree::insert(int value) {
