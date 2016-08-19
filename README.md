@@ -2,6 +2,8 @@
 
 ####C++ algorithms and data-structures Library using object oriented design and templates
 
+altrusian with the power of its high level object oriented design and built in methods can make competitive programming a bliss.
+
 List of Algorithms and data-structures iplemented :
 
 #####1> linked lists
@@ -36,5 +38,3 @@ List of Algorithms and data-structures iplemented :
     -using unorderd map
     -using pointers
     
-###use cases
-altrusian with the power of its high level object oriented design and built in methods can make competitive programming a bliss
