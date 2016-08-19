@@ -19,7 +19,7 @@ public:
     int biceps;
 };
 
-class Traversal : public LibAlDs::graph::DfsVisitor {
+class Traversal : public altrusian::graph::DfsVisitor {
 
 
 public:
@@ -29,7 +29,7 @@ public:
 
 };
 
-class BfsTraversal : public LibAlDs::graph::BfsVisitor {
+class BfsTraversal : public altrusian::graph::BfsVisitor {
 
 public:
     void onVertexDiscovery(int vertex) {

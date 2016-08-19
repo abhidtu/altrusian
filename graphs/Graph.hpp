@@ -27,8 +27,8 @@ namespace altrusian {
             virtual void updateEdgeCost(int fromVertex, int toVertex, int cost) = 0;
             virtual void removeEdge(int fromVertex, int toVertex) = 0;
             virtual bool edgeExists(int fromVertex, int toVertex) = 0;
-            virtual void breadthFirstSearch(LibAlDs::graph::BfsVisitor& visitor, int vertex) = 0;
-            virtual void depthFirstSearch(LibAlDs::graph::DfsVisitor& visitor,int vertex) = 0;
+            virtual void breadthFirstSearch(altrusian::graph::BfsVisitor& visitor, int vertex) = 0;
+            virtual void depthFirstSearch(altrusian::graph::DfsVisitor& visitor,int vertex) = 0;
             virtual bool pathExists(int fromVertex, int toVertex) = 0;
             virtual bool isCyclic() = 0;
 
