@@ -4,7 +4,7 @@
 
 altrusian with the power of its high level object oriented abstraction and built in methods can make solving competitive programming questions a bliss.
 
-List of Algorithms and data-structures iplemented :
+List of Algorithms and data-structures implemented :
 
 #####1> linked lists
 
