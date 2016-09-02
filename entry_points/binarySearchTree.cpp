@@ -93,7 +93,7 @@ int main() {
 
     cout <<"execution time -" << duration<<"\n";
 */
-
+/*
     trees->remove(18);
     trees->remove(17);
     trees->remove(11);
@@ -105,9 +105,11 @@ int main() {
     trees->remove(7);
     trees->remove(6);
     trees->remove(2);
+*/
+    cout << "size = " << trees->size() << "\n";
+    cout << "find = " << trees->find(17) << "\n";;
 
-    cout << "size = " << trees->size();
-    cout << "find = " << trees->find(17);
+    cout << "lca = " << trees->lca(11,18) << "\n";;
 
     return 0;
 }

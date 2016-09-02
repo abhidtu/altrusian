@@ -5,7 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 message("Boost libraries: ${Boost_LIBRARIES}")
 include_directories(${Boost_INCLUDE_DIR})
 
-set(SOURCE_FILES  entry_points/heap.cpp)
+set(SOURCE_FILES  entry_points/binarySearchTree.cpp)
 add_executable(c__ ${SOURCE_FILES}
 linked_lists/List.h
 linked_lists/singly/SinglyLinkedList.cpp

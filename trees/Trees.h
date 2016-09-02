@@ -34,6 +34,7 @@ namespace altrusian {
         virtual void insert(int value) = 0;
         virtual BinarySearchTreeNode* find(int value) = 0;
         virtual void remove(int value) = 0;
+        virtual int lca(int node1, int node2) = 0;
         virtual int size() = 0;
         virtual bool isEmpty() = 0;
 

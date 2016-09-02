@@ -34,6 +34,7 @@ namespace altrusian {
         virtual BinarySearchTreeNode* find(BinarySearchTreeNode* root,int value);
         virtual BinarySearchTreeNode* remove(BinarySearchTreeNode* root,int value);
         virtual BinarySearchTreeNode* insert(BinarySearchTreeNode* root,int value);
+        virtual BinarySearchTreeNode* lca(BinarySearchTreeNode* root, int node1, int node2);
         virtual BinarySearchTreeNode* createNewNode(int value);
         virtual BinarySearchTreeNode* getMaxElement(BinarySearchTreeNode* root);
         virtual BinarySearchTreeNode* getMinElement(BinarySearchTreeNode* root);
@@ -49,6 +50,7 @@ namespace altrusian {
         void insert(int value);
         BinarySearchTreeNode* find(int value);
         void remove(int value);
+        int lca(int node1, int node2);
         int size();
         bool isEmpty();
 

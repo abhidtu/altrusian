@@ -45,6 +45,36 @@ namespace altrusian {
         NumNodes--;
     }
 
+
+    int BinarySearchTree::lca(int node1, int node2) {
+
+        BinarySearchTreeNode* lcaNode = lca(root, node1, node2);
+
+        if(lcaNode != NULL) {
+            return lcaNode->value;
+        } else {
+            return -1;
+        }
+
+    }
+
+    BinarySearchTreeNode* BinarySearchTree::lca(BinarySearchTreeNode* root, int node1, int node2) {
+
+        if(root == NULL) {
+            return root;
+        }
+
+        if(find(root->left,node1) && find(root->left,node2)) {
+            return lca(root->left,node1,node2);
+        }else if(find(root->right,node1) && find(root->right,node2)){
+            return lca(root->right,node1,node2);
+        }
+
+        return root;
+
+    }
+
+
     /**
     * Tn = O(N)
     */
@@ -198,4 +228,6 @@ namespace altrusian {
     bool BinarySearchTree::isInternalNode(BinarySearchTreeNode *root) {
         return (root->left != NULL && root->right != NULL);
     }
+
+
 }
